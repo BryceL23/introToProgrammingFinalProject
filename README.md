@@ -1,16 +1,20 @@
 # introToProgrammingFinalProject
 
 # Project Title
+Fantasy Football Data Snatcher
 
 Simple overview of use/purpose.
 
 ## Description
+Would like to create a screen scraper that brings data from websites into an excel file to be later used in graphs by someone
 
 An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
 ### Dependencies
+Pygame
+Python
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Python 3.x, Pygame, etc.
@@ -36,6 +40,8 @@ command to run if program contains helper info
 ```
 
 ## Authors
+Bryce Linton
+Bryce.Linton23@bcp.org
 
 Contributors names and contact info
 
@@ -51,6 +57,7 @@ ex. ccozort@bcp.org
     * Initial Release
 
 ## License
+MIT license
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
