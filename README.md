@@ -2,7 +2,7 @@
 
 # Project Title
 Fantasy Football Data Snatcher
-
+Allow for a faster and more efficient way to take data from fantasy football websites to excel files to later be analysed. 
 Simple overview of use/purpose.
 
 ## Description
