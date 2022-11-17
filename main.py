@@ -5,9 +5,12 @@
 
 # Sources:
     # look at automatetheboringstuff.com
+    # https://realpython.com/python-web-scraping-practical-introduction/#build-your-first-web-scraper
 # Libraries:
 
 # Steps of Construction:
     # Find the website I wish to draw data from
     # write the code that will allow me to record the data from the website and into a file which could be used in a later use in an excel file
     # make a path to send the code to an excel or google sheet 
+
+
