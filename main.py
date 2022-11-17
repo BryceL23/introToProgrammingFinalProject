@@ -10,6 +10,7 @@
 
 # Steps of Construction:
     # Find the website I wish to draw data from
+    # read articles and learn how to build a screen scrapper
     # write the code that will allow me to record the data from the website and into a file which could be used in a later use in an excel file
     # make a path to send the code to an excel or google sheet 
 
