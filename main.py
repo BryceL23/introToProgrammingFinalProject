@@ -14,4 +14,17 @@
     # write the code that will allow me to record the data from the website and into a file which could be used in a later use in an excel file
     # make a path to send the code to an excel or google sheet 
 
+import pandas as pd
+from bs4 import BeautifulSoup
+from selenium import webdriver
+
+driver = webdriver.Chrome(executable_path='C:/Users/Bryce.Linton23/Downloads/chromedriver_win32 (1).zip')
+# where we imput the url we are using below 
+driver.get()
+results = []
+content = driver.page_source
+soup = BeautifulSoup(content)
+
+
+for element in soup.findAll(attrs=''):
 
