@@ -26,5 +26,6 @@ content = driver.page_source
 soup = BeautifulSoup(content)
 
 
-for element in soup.findAll(attrs=''):
+for element in soup.findAll(attrs='d3-l-grid--outer d3-l-section-row'):
+    name = element.find('h1')
 
