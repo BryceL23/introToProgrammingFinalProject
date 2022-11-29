@@ -18,14 +18,18 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path='C:/Users/Bryce.Linton23/Downloads/chromedriver_win32 (1).zip')
+driver = webdriver.Chrome(executable_path='C:/Users/Bryce.Linton23/OneDrive - Bellarmine College Preparatory/Intro_Computer_Programing/Final_Project_Excel_Files_Fantasy_Football')
 # where we imput the url we are using below 
-driver.get()
+driver.get('https://www.nfl.com/stats/player-stats/category/rushing/2022/reg/all/rushingyards/desc')
 results = []
 content = driver.page_source
 soup = BeautifulSoup(content)
+driver.quit()
 
 
 for element in soup.findAll(attrs='d3-l-grid--outer d3-l-section-row'):
     name = element.find('h1')
-
+    if name not in results:
+        results.append(name.text)
+df = pd.DataFrame({'stats' : results})
+df.to_csv('stats.csv', index=False, encoding='utf-8')
