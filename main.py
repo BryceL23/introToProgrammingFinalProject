@@ -8,6 +8,7 @@
     # https://realpython.com/python-web-scraping-practical-introduction/#build-your-first-web-scraper
     # https://www.youtube.com/watch?v=mDveiNIpqyw
     # https://oxylabs.io/blog/python-web-scraping
+    # https://www.kdnuggets.com/2022/02/build-web-scraper-python-5-minutes.html
 # Libraries:
 
 # Steps of Construction:
@@ -16,13 +17,17 @@
     # write the code that will allow me to record the data from the website and into a file which could be used in a later use in an excel file
     # make a path to send the code to an excel or google sheet 
 
+
+# start at beautiful soup 
+
 # importing the installed libraries
 import pandas as pd
 # it is a library written for data manipulation and analytics 
 from bs4 import BeautifulSoup
 # a powerful library that allows users to pull data from HTML files to nagivate and search through data before 
 import requests
-# it is used to automate test cases which test the functionality of the actions to make sure the expected resulf occurs
+#
+# (what selenium does) it is used to automate test cases which test the functionality of the actions to make sure the expected resulf occurs
 
 driver = webdriver.Chrome(executable_path='C:/Users/Bryce.Linton23/OneDrive - Bellarmine College Preparatory/Intro_Computer_Programing/Final_Project_Excel_Files_Fantasy_Football')
 # driver is the first variable we are suing which will state what our browser is and its location
