@@ -21,14 +21,14 @@ import pandas as pd
 # it is a library written for data manipulation and analytics 
 from bs4 import BeautifulSoup
 # a powerful library that allows users to pull data from HTML files to nagivate and search through data before 
-from selenium import webdriver
+import requests
 # it is used to automate test cases which test the functionality of the actions to make sure the expected resulf occurs
 
 driver = webdriver.Chrome(executable_path='C:/Users/Bryce.Linton23/OneDrive - Bellarmine College Preparatory/Intro_Computer_Programing/Final_Project_Excel_Files_Fantasy_Football')
 # driver is the first variable we are suing which will state what our browser is and its location
 # because Chrome is installed on our computer or engine we will be using that as our browser
 # need to download the web driver version that matches our browser
-driver.get('https://www.nfl.com/stats/player-stats/category/rushing/2022/reg/all/rushingyards/desc')
+driver.get('https://www.pro-football-reference.com/years/2022/rushing.htm')
 # this is the url that we will be gathering our data from 
 
 results = []
@@ -40,9 +40,9 @@ soup = BeautifulSoup(content)
 driver.quit()
 # this will force the browser to close
 
-for element in soup.findAll(attrs='d3-l-grid--outer d3-l-section-row'):
+for element in soup.findAll(attrs='wrap'):
     # it will iterate (repeatedy execute the code) through all the data that meets certain parameters 
-    name = element.find('h1')
+    name = element.find('all_rushing')
     # tells our code which data on the web page it needs to find 
     if name not in results:
         # will avoid adding duplicates to the list if the result is not present
