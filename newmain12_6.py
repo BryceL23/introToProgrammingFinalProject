@@ -48,7 +48,7 @@ for i in searchresults:
 for i in searchresults1:
     if len(i.text) > 0:
         datafound1.append(i.text)
-    if len(datafound1) > 127:
+    if len(datafound1) > 162:
         break
     # gather the data within the provided source up to the determined number of string values and store them to be later written to and excel file when later called upon, the loop runs within itself until the desirved info is collected and then it breaks
 
@@ -59,11 +59,11 @@ wb = Workbook()
 sheet1 = wb.add_sheet("2022 Rushing Totals")
 # maps the first sheet within the excel file and titles it with the preset name 2022 Rushing Totals 
 
-sheet1.write(0,0, "Name")
-sheet1.write(0,1, "Team")
-sheet1.write(0,2, "Position")
-sheet1.write(0,3, "Attempts")
-sheet1.write(0,4, "Yards")
+sheet1.write(0,1, "Name")
+sheet1.write(0,2, "Team")
+sheet1.write(0,3, "Position")
+sheet1.write(0,5, "Attempts")
+sheet1.write(0,6, "Yards")
 # within sheet1 of the excel file the collumns 1 through 5 are named as above 
 
 for i in range(0,162):
@@ -71,7 +71,7 @@ for i in range(0,162):
     # for the string value in the range it is written within its corresponding column from the list values found in datafound until the determined limit of values is reached
 # modulo takes remainder so it does i/3 the puts the remainder in that row 
 
-for i in range(0,127):
+for i in range(0,162):
     sheet1.write((i)//3+4,i%3, datafound1[i])
         # for the string value in the range it is written within its corresponding column from the list values found in datafound until the determined limit of values is reached
 # # what is added is where the column of new data input begins
@@ -81,3 +81,5 @@ wb.save('xlwt_Rushing_Totals_Data1.xls')
 
 
 #it is erroring because i do not have enoiugh values
+# when an exception occurs there is a problem and no other code in the block occurs 
+# i ran this code only going to from 0 to 1 and it printed the age of one player but when I runn it with more I think it attempts to verwrite excisting data causing it to stop working whic hI need to take a look at 
