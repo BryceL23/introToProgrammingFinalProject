@@ -1,4 +1,9 @@
-# sources: https://www.geeksforgeeks.org/writing-excel-sheet-using-python/
+# sources: 
+# Links below were read and watched and used to influence the direction of the code but the final code is primarily built off of Mr. Cozort's code with modifications to fit the data values of my project 
+# https://www.geeksforgeeks.org/writing-excel-sheet-using-python/
+# https://www.youtube.com/watch?v=mDveiNIpqyw
+# https://automatetheboringstuff.com/2e/chapter12/
+# Mr. Cozort's class example code and assistance from my table mates, primarily Jonas Thieme
 
 
 ############## open website with selenium and webdriver ###################
