@@ -6,7 +6,7 @@ Allow for a faster and more efficient way to take data from fantasy football web
 Simple overview of use/purpose.
 
 ## Description
-During my statistics class earlier this school year we were tasked with a project to create graphs and analyze data on a topic of our choice. During the time when this project was introduced I was still workign on that project and was unable to find a single website that would have all the data poitns I was looking for and as a result had to gather data from multiple sites into a single excel file and format it correctly so I was usable. I wanted to create a solution for this problem and would like to create a sceen scraper to bring the new data after each week to the excel spreadsheet ready to be turned into graphs so trends for players and teams can be analyzed. 
+During my statistics class earlier this school year we were tasked with a project to create graphs and analyze data on a topic of our choice. During the time when this project was introduced I was still working on that project. During my data collection it became a waste of time to have to copy and paste and reformat the gathered information into a structure which was uable. I wanted to create a solution for this problem and have worked to create a sceen scraper to bring the new data after each week to the excel spreadsheet ready to be analyzied by the user with the use of graph and other charts to make accurate player predictions.
 
 An in-depth paragraph about your project and overview of use.
 
