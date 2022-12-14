@@ -14,6 +14,7 @@ from selenium import webdriver
 # allows for the webpage used in the project to be accessed and opened and closed through the software, not needing to be manually controlled
 # from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
+#
 
 # scrape page
 URL = 'https://www.pro-football-reference.com/years/2022/rushing.htm'
@@ -46,7 +47,6 @@ datafound1 =[]
 for i in searchresults:
     if len(i.text) > 0:
         datafound.append(i.text)
-
     if len(datafound) > 156:
         break
 # gather the data within the provided source up to the determined number of string values and store them to be later written to and excel file when later called upon, the loop runs within itself until the desirved info is collected and then it breaks
