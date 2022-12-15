@@ -10,13 +10,15 @@
 
 ############## open website with selenium and webdriver ###################
 from time import sleep
+# delays the execution of a task for a predetermined amount of time
 # import xlwt
 from xlwt import Workbook
+# 
 from selenium import webdriver
 # allows for the webpage used in the project to be accessed and opened and closed through the software, not needing to be manually controlled
 # from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
-#
+# it is a library that allows for web based actions such as opening the url used in the code and automates the process of opening and closing
 class ScreenScrape:
     def __init__(self, URL):
         self.url = URL        
@@ -85,7 +87,7 @@ class ScreenScrape:
         sheet1.write(0,12,"Rushing Yards Per Game")
         sheet1.write(0,13,"Fumbles")
 
-
+        # names the columns with the aligning data values that will be entered
 
 
         # within sheet1 of the excel file the collumns 1 through 5 are named as above 
