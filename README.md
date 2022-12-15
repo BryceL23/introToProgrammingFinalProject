@@ -68,6 +68,6 @@ Inspiration, code snippets, etc.
 * [PyGame](https://www.pygame.org/docs/)
 * [Automate The Boring Stuff](https://automatetheboringstuff.com/)
 
-Using the Day 30 file creation code
+Using the sample code from course files
 Use NFL website to bring NFL player data 
 
