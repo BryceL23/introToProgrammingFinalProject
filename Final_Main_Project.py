@@ -13,7 +13,7 @@
 from time import sleep
 # delays the execution of a task for a predetermined amount of time
 from xlwt import Workbook
-# it is a library used to create excel files 
+# it is a library used to create excel files and represents all the contents in a library 
 from selenium import webdriver
 # allows for the webpage used in the project to be accessed and opened and closed through the software, not needing to be manually controlled
 from selenium.webdriver.common.by import By
