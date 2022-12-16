@@ -47,8 +47,8 @@ Bryce.Linton23@bcp.org
 
 Contributors names and contact info
 
-Was Helped by the following
-Mr. Cozort
+Was Helped by the following:
+Mr. Cozort and
 Jonas Thieme
 
 ## Version History
