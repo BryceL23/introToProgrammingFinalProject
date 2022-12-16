@@ -13,19 +13,21 @@ An in-depth paragraph about your project and overview of use.
 ## Getting Started
 
 ### Dependencies
-Pygame
 Python
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Python 3.x, Pygame, etc.
+Using the Libraries listed below:
+time
+xlwt
+selenium
+webdriver
+* These libraries are described through the comments within the Final Project Code
 
 ### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Make sure to have the above libraries and dependencies downloaded to ones C drive 
+The code should run on ones computer as long as the proper libraries are installed
+The code can be ran by copy and pasting into ones vs code make sure their file paths are correct first 
 
 ### Executing program
-
+Bring into ones vs code and make sure the file path is correct for ones c drive then run and watch the excel file appear in your desired location
 * How to run the program
 * Step-by-step bullets
 ```
@@ -45,8 +47,9 @@ Bryce.Linton23@bcp.org
 
 Contributors names and contact info
 
-ex. Chris Cozort  
-ex. ccozort@bcp.org
+Was Helped by the following:
+Mr. Cozort and
+Jonas Thieme
 
 ## Version History
 
